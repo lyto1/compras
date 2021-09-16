@@ -10,12 +10,15 @@ Controle de compras públicas
 * Instale as dependências
 * Rode as migrações
 
-'''bash
+
+```
 git clone git@github.com:lyto1/compras.git
-cd
+cd compras
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py migrate
-'''
+python manage.py createsuperuser
+python manage.py runserver
+```
