@@ -10,7 +10,7 @@ Controle de compras públicas
 * Instale as dependências
 * Rode as migrações
 
-'''
+'''bash
 git clone git@github.com:lyto1/compras.git
 cd
 python3 -m venv .venv
