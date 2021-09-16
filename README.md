@@ -15,7 +15,7 @@ Controle de compras públicas
 git clone git@github.com:lyto1/compras.git
 cd compras
 python3 -m venv .venv
-source .venv/bin/activate
+.venv\Scripts\activate
 pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py migrate
